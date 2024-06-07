@@ -48,8 +48,6 @@ function isInViewport(element) {
  * 
 */
 
-// build the nav
-addSectionToNavBar()
 
 // Add class 'active' to section when near top of viewport
 
@@ -76,3 +74,5 @@ const addSectionToNavBar = () => {
     }
     navBar.appendChild(fragment);
 }
+// build the nav
+addSectionToNavBar()
